@@ -1,9 +1,6 @@
 package com.jyotirmayadas.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
@@ -13,6 +10,7 @@ public class Product {
     @Id
     private int id;
 
+    @Basic(optional = false)
     private String name;
     private Double price;
 
