@@ -10,7 +10,8 @@ public class Product {
     @Id
     private int id;
 
-    @Basic(optional = false)
+    // can't use on Collection types, by default optional is true, which means we might leave them nullable
+    @Basic(optional = false) // if in DB we mark as NOT NULL, we can use optional false
     private String name;
     private Double price;
 
