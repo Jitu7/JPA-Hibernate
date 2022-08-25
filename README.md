@@ -6,3 +6,4 @@
 4. @AttributeOverride and Composed Primary Key
 5. @OnetoOne and Secondary Tables
 6. @OneToMany and @manytoone
+7. @manytomany
