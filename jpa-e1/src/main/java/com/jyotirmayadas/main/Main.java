@@ -17,7 +17,7 @@ public class Main {
 
         Product product1 = new Product();
         product1.setId(101);
-        product1.setName("Beer");
+        product1.setName("Water");
         product1.setPrice(10.4);
         product1.setExpirationDate(LocalDate.now());
 
