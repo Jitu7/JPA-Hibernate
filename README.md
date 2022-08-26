@@ -7,3 +7,4 @@
 5. @OnetoOne and Secondary Tables
 6. @OneToMany and @manytoone
 7. @manytomany
+8. 8
